@@ -10,7 +10,7 @@ const withAuth = function (req, res, next) {
     } else {
         const token = authorizationHeader.split(' ')[1]; // Assuming "Bearer <token>"
         if (!token) {
-            console.log("Invalid Authorization Header Format");
+            console.log("Invalid hi Header Format");
             res.status(401).send('Unauthorized: Invalid Authorization Header Format');
         } else {
             jwt.verify(token, secretKey, function (err, decoded) {
