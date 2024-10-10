@@ -1,0 +1,43 @@
+.app{
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh; 
+  text-align: center;
+   align-items: center;
+  align-content: center;
+  justify-content: center;  
+}
+
+/* .flex-item{
+  flex: 1;
+} */
+
+input{
+  padding: 10px; 
+  margin-bottom: 5px; 
+  margin-top: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.text-box{
+  margin-bottom: 5px;
+}
+
+/* Add styles for the button */
+button {
+  background-color: rgb(59, 59, 84); /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Add pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  border-radius: 10px; 
+}
+
+/* Hover effect */
+button:hover {
+  background-color: rgb(134, 134, 163); /* Darker background color on hover */
+}

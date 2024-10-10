@@ -1,1 +1,0 @@
-`SSD project`

@@ -1,0 +1,46 @@
+.home-div {
+    height: calc(100vh - 56px);
+    background-image: url("../../../public/home1.jpg");
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+}
+
+.text-div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 50px;
+    padding: 0;
+}
+.search-div {
+    width: 50%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    position: relative;
+    background: rgba(255, 255, 255, 0.445); 
+    padding: 10px;
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+}
+
+#search-input {
+    width: 88%;
+    padding: 5px;
+    margin: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-weight: 300;
+    font-size: 20px;
+}
+#search-input::placeholder {
+    color: rgb(31, 31, 31);
+}
